@@ -11,7 +11,7 @@ const LandingPage: React.FC = () => {
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             <div className="flex flex-col items-center justify-center md:items-start">
               <h1 className="mb-4 text-4xl font-bold text-purple-600">
-                Welcome to Purr.Dev
+                Welcome to Purr.Dev!
               </h1>
               <p className={`mb-6 text-lg text-gray-700 dark:text-gray-300`}>
                 We are a company dedicated to creating high-quality (web)apps.
