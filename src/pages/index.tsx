@@ -10,22 +10,33 @@ const LandingPage: React.FC = () => {
         <section className="container mx-auto py-10">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             <div className="flex flex-col items-center justify-center md:items-start">
-              <h1 className="mb-4 text-4xl font-bold text-purple-600">
+            <h1 className="mb-4 text-4xl font-bold text-purple-600">
                 Welcome to Purr.Dev!
               </h1>
-              <p className={`mb-6 text-lg text-gray-700 dark:text-gray-300`}>
-                We are a company dedicated to creating high-quality (web)apps.
+              <p className="mb-6 text-lg text-gray-700 dark:text-gray-300">
+                At Purr.Dev, we&apos;re passionate about building top-notch web
+                apps that help our clients achieve their business goals. With a
+                focus on quality and efficiency, we work closely with our
+                clients to create solutions that meet their unique needs and
+                exceed their expectations.
               </p>
-              {/* <a
-                href="/blog"
-                className={`rounded-full bg-purple-600 py-2 px-6 text-white hover:bg-purple-700 dark:hover:bg-purple-500`}
-              >
-                Check out our latest blog posts
-              </a> */}
+              <p className="mb-6 text-lg text-gray-700 dark:text-gray-300">
+                But we&apos;re not just experts in web development. We also
+                pride ourselves on providing exceptional customer service. Our
+                team is committed to communicating clearly and effectively with
+                our clients throughout the development process, so you always
+                know what&apos;s going on and what to expect.
+              </p>
+              <p className="mb-6 text-lg text-gray-700 dark:text-gray-300">
+                So why choose Purr.Dev? We believe that our commitment to
+                quality, efficiency, and customer service sets us apart from the
+                competition. We don&apos;t just build websites and apps – we
+                build solutions that help your business grow and thrive.
+              </p>
+              <button className="mt-6 rounded bg-blue-500 py-2 px-4 font-bold text-white hover:bg-blue-600">
+                Contact us today
+              </button>
             </div>
-            {/* <div className="flex justify-center items-center">
-              <Image src="/purr-dev-logo.png" alt="Purr.Dev logo" width={400} height={400} />
-            </div> */}
           </div>
         </section>
       </main>
